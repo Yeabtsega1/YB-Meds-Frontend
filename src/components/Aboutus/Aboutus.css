@@ -1,0 +1,43 @@
+.about{
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 40px;
+margin: 50px;
+margin-left: 100px;
+margin-top: -50px;
+padding-top: 70px;
+
+}
+.greetings{
+font-weight: bold;
+text-align: center;
+margin-top: 120px;
+/* margin-bottom: 20px; */
+}
+.msg{
+color: blue;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+.content{
+    margin: -10px -90px 30px 270px;
+    margin-bottom: -5rem;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.aboutus{
+    background-size:cover ;
+    height: 100%;
+    opacity: 0.8;
+    font-family: "Merriweather", serif;
+    margin-top: 330px;
+}
+.hero-logo{
+    margin:20px;
+    margin-left: 530px;
+    display: flex;
+    justify-content: center;
+}

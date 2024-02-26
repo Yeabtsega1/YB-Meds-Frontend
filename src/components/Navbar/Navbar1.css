@@ -1,0 +1,46 @@
+/* Add this CSS to style the menu icon */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #333;
+    transition: 0.4s;
+  }
+  
+  /* Styling the menu icon when open */
+  .menu-icon.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .menu-icon.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      display: none;
+    }
+  
+    .navbar-collapse.show {
+      display: block;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  }
+  .container-fluid{
+    margin: center;
+    margin-top: 990px;
+    /* margin-left: -100px; */
+  }
